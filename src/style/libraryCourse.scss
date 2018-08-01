@@ -1,7 +1,7 @@
 .library-course {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: repeat(aut0-fit, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(auto-fit, 1fr);
     background: cornflowerblue;
 
     &__title-arrow{
@@ -10,7 +10,10 @@
         flex-direction: row;
         grid-row-gap: 22px;
     }
-    &__arrow {
+    &__title-check {
+        grid-row: 1/2;
+    }
+    &__action {
         grid-row: 1/2;
     }
     &__description {
