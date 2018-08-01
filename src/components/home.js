@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Schedule from "./schedule/schedule";
-import Library from "./library/library";
+import Schedule from "./Schedule/schedule";
+import Library from "./Library/library";
 
 class Home extends Component {
   render() {
