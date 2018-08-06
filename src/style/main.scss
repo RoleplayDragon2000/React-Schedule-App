@@ -1,7 +1,9 @@
-@import 'Variables';
-@import 'Library';
-@import "LibraryCourse";
-@import 'Arrow';
+@import 'variables';
+@import 'library';
+@import "libraryCourse";
+@import 'arrow';
+@import 'schedule';
+@import 'schedulecourse';
 
 .home {
 
@@ -9,8 +11,8 @@
     width: 100vw;
 
    display: grid;
-   grid-template-columns: [library-s]1fr 1fr[library-e schedule-s] 1fr [shedule-e];
-   grid-template-rows: repeat(1fr);
+   grid-template-columns: [library-s] 1fr 1fr [library-e schedule-s] 1fr [shedule-e];
+   grid-template-rows: 1fr;
 }
 
 .schedule {
