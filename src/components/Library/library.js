@@ -15,7 +15,7 @@ class Library extends Component {
 
     return data.map((course, index) => {
       return <LibraryCourse {...course} key={index} />;
-    });
+    })
   }
 
   render() {
